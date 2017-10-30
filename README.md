@@ -6,5 +6,5 @@
 in struts2.3.x tag: <s:* id=""/> is valid, but in 2.5.23 need change it to <s:* var=""/>, struts won't find ognl of this tag with id;  
 <s:*> contains [action,append,bean,date,generator,iterator,merge,number,set,sort,subset,text,url]
 like <s:action> <s:append> and so on)
->> 2. <div><s:text name="中文字符串"/><div> to <div>中文字符串<div>  
+>> 2. <div/><s:text name="中文字符串"/><div/> to <div>中文字符串<div>  
 in struts2.3.x tag <s:text name="中文字符串"/> is valid, but not in 2.5.23;()
